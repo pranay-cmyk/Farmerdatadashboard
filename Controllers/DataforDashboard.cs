@@ -20,7 +20,7 @@ public class FarmerDataForDashboard : ControllerBase
     )
     {
         using (SqlConnection con = new SqlConnection(
-            _config.GetConnectionString("DefaultConnection")))
+            _config.GetConnectionString("Emarkets")))
         {
             SqlCommand cmd = new SqlCommand(
                 "GetFarmerDataforDashboard",

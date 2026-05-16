@@ -69,3 +69,4 @@ D:\Pranay\OneSoft\KapasKisan202526\kapasKisanAPI2025\farmerAPI\obj\Release\net10
 D:\Pranay\OneSoft\KapasKisan202526\kapasKisanAPI2025\farmerAPI\obj\Release\net10.0\FarmerAPI.pdb
 D:\Pranay\OneSoft\KapasKisan202526\kapasKisanAPI2025\farmerAPI\obj\Release\net10.0\FarmerAPI.genruntimeconfig.cache
 D:\Pranay\OneSoft\KapasKisan202526\kapasKisanAPI2025\farmerAPI\obj\Release\net10.0\ref\FarmerAPI.dll
+D:\Pranay\OneSoft\KapasKisan202526\KapasKisanAPI2025\FarmerAPI\obj\Release\net10.0\FarmerAPI.sourcelink.json
