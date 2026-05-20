@@ -16,11 +16,12 @@ public class FarmerDataForDashboard : ControllerBase
     [HttpGet]
     public IActionResult GetPaged(
         int pageNumber = 1,
-        string farmerName = null
+        string farmerName = null,
+        string pk_FarmerID = null
     )
     {
         using (SqlConnection con = new SqlConnection(
-            _config.GetConnectionString("Emarkets")))
+            _config.GetConnectionString("DefaultConnection")))
         {
             SqlCommand cmd = new SqlCommand(
                 "GetFarmerDataforDashboard",
@@ -30,6 +31,13 @@ public class FarmerDataForDashboard : ControllerBase
 
             cmd.Parameters.AddWithValue("@PageNumber", pageNumber);
             cmd.Parameters.AddWithValue("@PageSize", 10);
+
+            cmd.Parameters.AddWithValue(
+                "@Pk_FarmerID",
+                string.IsNullOrWhiteSpace(pk_FarmerID)
+                ? DBNull.Value
+                : pk_FarmerID
+            );
 
             cmd.Parameters.AddWithValue(
                 "@FarmerName",
@@ -42,16 +50,6 @@ public class FarmerDataForDashboard : ControllerBase
 
             SqlDataReader reader = cmd.ExecuteReader();
 
-            // int totalRecords = 0;
-
-            // if (reader.Read())
-            // {
-            //     totalRecords = Convert.ToInt32(
-            //         reader["TotalRecords"]);
-            // }
-
-            reader.NextResult();
-
             List<FarmerDataforDashbordModel> farmers =
                 new List<FarmerDataforDashbordModel>();
 
@@ -60,7 +58,7 @@ public class FarmerDataForDashboard : ControllerBase
                 farmers.Add(new FarmerDataforDashbordModel
                 {
                     Pk_FarmerID =
-                        Convert.ToInt32(reader["PK_FarmerID"]),
+                        Convert.ToInt32(reader["Pk_FarmerID"]),
 
                     FarmerFullname =
                         reader["FarmerFullname"]?.ToString(),
@@ -196,7 +194,6 @@ public class FarmerDataForDashboard : ControllerBase
 
             return Ok(new
             {
-               // TotalRecords = totalRecords,
                 Data = farmers
             });
         }

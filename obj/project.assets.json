@@ -1459,11 +1459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pranay\\OneSoft\\KapasKisan202526\\KapasKisanAPI2025\\FarmerAPI\\FarmerAPI.csproj",
+      "projectUniqueName": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj",
       "projectName": "FarmerAPI",
-      "projectPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\KapasKisanAPI2025\\FarmerAPI\\FarmerAPI.csproj",
+      "projectPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\KapasKisanAPI2025\\FarmerAPI\\obj\\",
+      "outputPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
