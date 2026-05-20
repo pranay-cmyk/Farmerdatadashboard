@@ -55,9 +55,7 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
-Controllers/
- DataforDashboard.cs
- FarmerController.cs
+Controllers/DataforDashboard.cs
 Data/DbHelper.cs
 Models/
  DataforDashboard.cs
