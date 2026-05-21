@@ -55,11 +55,13 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
-Controllers/DataforDashboard.cs
+Controllers/
+ ArrivalPositionController.cs
+ DataforDashboard.cs
 Data/DbHelper.cs
 Models/
+ ArrivalPositionModel.cs
  DataforDashboard.cs
- farmerBooking.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  FarmerAPI.AssemblyInfo.cs
