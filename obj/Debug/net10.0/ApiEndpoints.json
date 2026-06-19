@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FarmerController",
+    "Method": "GetPaged",
+    "RelativePath": "api/Farmer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
