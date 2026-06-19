@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj": {}
+    "D:\\Pranay\\OneSoft\\KapasKisan202526\\FarmerAPI.csproj": {}
   },
   "projects": {
-    "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj": {
+    "D:\\Pranay\\OneSoft\\KapasKisan202526\\FarmerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj",
+        "projectUniqueName": "D:\\Pranay\\OneSoft\\KapasKisan202526\\FarmerAPI.csproj",
         "projectName": "FarmerAPI",
-        "projectPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\FarmerAPI.csproj",
+        "projectPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\FarmerAPI.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\kapaskisanAPI2025\\farmerAPI\\obj\\",
+        "outputPath": "D:\\Pranay\\OneSoft\\KapasKisan202526\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
