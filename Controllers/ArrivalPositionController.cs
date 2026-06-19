@@ -77,19 +77,26 @@ namespace KapasKisanDashboard.Controllers
                             : Convert.ToDateTime(
                                 reader["PURCHASE_DATE"]),
 
-                        ARRIVAL_IN_QUINTALS =
-                            reader["ARRIVAL_IN_QUINTALS"] == DBNull.Value
-                            ? null
-                            : Math.Round(
-                                Convert.ToDecimal(
-                                    reader["ARRIVAL_IN_QUINTALS"]), 2),
+                        DAYS_ARRIVAL_IN_BALES =
+    reader["DAYS_ARRIVAL_IN_BALES"] == DBNull.Value
+    ? null
+    : Math.Round(
+        Convert.ToDecimal(
+            reader["DAYS_ARRIVAL_IN_BALES"]), 2),
 
-                        CCIL_PURCHASE_IN_Qtl =
-                            reader["CCIL_PURCHASE_IN_Qtl"] == DBNull.Value
-                            ? null
-                            : Math.Round(
-                                Convert.ToDecimal(
-                                    reader["CCIL_PURCHASE_IN_Qtl"]), 2)
+                        CCIL_PURCHASE_IN_QUINTALS =
+    reader["CCIL_PURCHASE_IN_QUINTALS"] == DBNull.Value
+    ? null
+    : Math.Round(
+        Convert.ToDecimal(
+            reader["CCIL_PURCHASE_IN_QUINTALS"]), 2),
+
+                        CCIL_PURCHASE_IN_BALES =
+    reader["CCIL_PURCHASE_IN_BALES"] == DBNull.Value
+    ? null
+    : Math.Round(
+        Convert.ToDecimal(
+            reader["CCIL_PURCHASE_IN_BALES"]), 2)
                     });
                 }
 

@@ -16,8 +16,10 @@ namespace KapasKisanDashboard.Models
 
         public DateTime? PURCHASE_DATE { get; set; }
 
-        public decimal? ARRIVAL_IN_QUINTALS { get; set; }
+       public decimal? DAYS_ARRIVAL_IN_BALES { get; set; }
 
-        public decimal? CCIL_PURCHASE_IN_Qtl { get; set; }
+        public decimal? CCIL_PURCHASE_IN_QUINTALS { get; set; }
+
+        public decimal? CCIL_PURCHASE_IN_BALES { get; set; }
     }
 }
