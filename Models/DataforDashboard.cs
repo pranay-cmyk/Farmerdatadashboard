@@ -63,4 +63,8 @@ public class FarmerDataforDashbordModel
     public string? CasteCategory { get; set; }
 
     public string? AspirationalDistricts { get; set; }
+
+    public int? ReferenceNumber { get; set; }
+
+public decimal? LandInAcres { get; set; }
 }

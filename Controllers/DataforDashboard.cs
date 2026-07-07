@@ -188,7 +188,17 @@ public class FarmerDataForDashboard : ControllerBase
                         reader["CasteCategory"]?.ToString(),
 
                     AspirationalDistricts =
-                        reader["AspirationalDistricts"]?.ToString()
+                        reader["AspirationalDistricts"]?.ToString(),
+
+                    ReferenceNumber =
+    reader["referenceNumber"] == DBNull.Value
+    ? null
+    : Convert.ToInt32(reader["referenceNumber"]),
+
+                    LandInAcres =
+    reader["landInAcres"] == DBNull.Value
+    ? null
+    : Math.Round(Convert.ToDecimal(reader["landInAcres"]), 2)
                 });
             }
 
